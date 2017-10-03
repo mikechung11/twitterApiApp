@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterApp.Web", "twitterApp.Web\twitterApp.Web.csproj", "{131C3F42-9F83-49BC-BFEA-65A029D3AACC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterApp.Web", "Web\twitterApp.Web.csproj", "{131C3F42-9F83-49BC-BFEA-65A029D3AACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterApp.Models", "twitterApp.Models\twitterApp.Models.csproj", "{604A558F-4ECC-43E6-914A-88FCBE813DA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterApp.Models", "Models\twitterApp.Models.csproj", "{604A558F-4ECC-43E6-914A-88FCBE813DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterApp.Services", "twitterApp.Services\twitterApp.Services.csproj", "{40D55D69-B955-4D17-AC3A-E3658CD69B58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitterApp.Services", "Services\twitterApp.Services.csproj", "{40D55D69-B955-4D17-AC3A-E3658CD69B58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
