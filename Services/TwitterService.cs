@@ -26,7 +26,7 @@ namespace twitterApp.Services
         public string GetUserTimeline(TwitterUser user)
         {
             WebClient client = new WebClient();
-            client.Headers[HttpRequestHeader.Authorization] = "Bearer " + pbToken;
+            client.Headers[HttpRequestHeader.Authorization] = "Bearer " + "AAAAAAAAAAAAAAAAAAAAAKM02gAAAAAAqnZAtwJstrGfnaM2CuISay30ebE%3D2ksNqJqghgYnomxD65816xlqZr1KaG0KWhXvJzaocHyh3jM4RB";
             String link = "https://api.twitter.com/1.1/statuses/user_timeline.json?count=10&screen_name=" + user.screenName;
             string response = client.DownloadString(link);
 
