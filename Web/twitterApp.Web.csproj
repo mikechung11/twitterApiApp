@@ -219,11 +219,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\twitterApp.Models\twitterApp.Models.csproj">
+    <ProjectReference Include="..\Models\twitterApp.Models.csproj">
       <Project>{604a558f-4ecc-43e6-914a-88fcbe813da8}</Project>
       <Name>twitterApp.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\twitterApp.Services\twitterApp.Services.csproj">
+    <ProjectReference Include="..\Services\twitterApp.Services.csproj">
       <Project>{40d55d69-b955-4d17-ac3a-e3658cd69b58}</Project>
       <Name>twitterApp.Services</Name>
     </ProjectReference>

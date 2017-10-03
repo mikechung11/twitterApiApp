@@ -43,7 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\twitterApp.Models\twitterApp.Models.csproj">
+    <ProjectReference Include="..\Models\twitterApp.Models.csproj">
       <Project>{604a558f-4ecc-43e6-914a-88fcbe813da8}</Project>
       <Name>twitterApp.Models</Name>
     </ProjectReference>
